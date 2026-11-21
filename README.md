@@ -1,3 +1,13 @@
+---
+title: Moreprodukty Nyagan
+emoji: 🦐
+colorFrom: blue
+colorTo: gray
+sdk: docker
+app_port: 3000
+pinned: false
+---
+
 # Сайт «Морепродукты Нягань»
 
 Витрина с корзиной, заказ с сайта, админка и уведомления в Telegram.
