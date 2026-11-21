@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute">
+  <!-- Цвета задаются снаружи через CSS-переменные a (основной), b (светлый), c (тёмный) -->
+
+  <symbol id="i-fish" viewBox="0 0 120 120">
+    <path d="M54 33 L66 20 L78 36 Z" fill="var(--b)"/>
+    <path d="M8 60 C22 34 58 26 88 44 L104 53 L116 40 L116 80 L104 67 L88 76 C58 94 22 86 8 60 Z" fill="var(--a)"/>
+    <path d="M12 64 C34 80 62 82 86 70 L90 74 C62 94 28 88 12 64 Z" fill="var(--b)" opacity=".85"/>
+    <path d="M38 44 C46 56 46 66 38 78" fill="none" stroke="var(--c)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="25" cy="55" r="4.5" fill="var(--c)"/>
+    <circle cx="26.4" cy="53.6" r="1.4" fill="#fff"/>
+    <g fill="var(--c)" opacity=".35"><circle cx="58" cy="46" r="2.2"/><circle cx="68" cy="50" r="2.2"/><circle cx="78" cy="54" r="2.2"/><circle cx="62" cy="58" r="2.2"/><circle cx="72" cy="62" r="2.2"/></g>
+    <path d="M60 80 L68 96 L78 82 Z" fill="var(--b)"/>
+  </symbol>
+
+  <symbol id="i-shrimp" viewBox="0 0 120 120">
+    <path d="M86 32 C104 14 114 18 116 24" fill="none" stroke="var(--c)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M84 36 C96 12 110 6 118 8" fill="none" stroke="var(--c)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M30 70 L10 56 L16 70 L8 82 L28 82 Z" fill="var(--b)"/>
+    <path d="M88 34 C114 50 104 96 64 98 C38 100 24 80 36 64" fill="none" stroke="var(--a)" stroke-width="17" stroke-linecap="round"/>
+    <path d="M88 34 C114 50 104 96 64 98 C38 100 24 80 36 64" fill="none" stroke="var(--c)" stroke-opacity=".3" stroke-width="17" stroke-dasharray="2.4 11"/>
+    <path d="M66 84 L58 108 M78 82 L74 108 M54 86 L44 106" stroke="var(--b)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="93" cy="36" r="4" fill="var(--c)"/>
+    <circle cx="94.2" cy="34.8" r="1.3" fill="#fff"/>
+  </symbol>
+
+  <symbol id="i-crab" viewBox="0 0 120 120">
+    <g fill="none" stroke="var(--a)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M30 72 L10 66 L6 82"/><path d="M32 82 L12 92 L12 106"/><path d="M40 90 L28 104 L30 114"/>
+      <path d="M90 72 L110 66 L114 82"/><path d="M88 82 L108 92 L108 106"/><path d="M80 90 L92 104 L90 114"/>
+      <path d="M36 60 L22 42"/><path d="M84 60 L98 42"/>
+    </g>
+    <path d="M20 40 L11 30 A12.5 12.5 0 1 0 29 30 Z" fill="var(--a)"/>
+    <path d="M100 40 L91 30 A12.5 12.5 0 1 0 109 30 Z" fill="var(--a)"/>
+    <ellipse cx="60" cy="74" rx="36" ry="24" fill="var(--a)"/>
+    <path d="M36 70 C46 62 74 62 84 70" fill="none" stroke="var(--b)" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+    <path d="M52 56 L50 46 M68 56 L70 46" stroke="var(--c)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="50" cy="44" r="5" fill="var(--c)"/><circle cx="70" cy="44" r="5" fill="var(--c)"/>
+    <circle cx="51.4" cy="42.6" r="1.6" fill="#fff"/><circle cx="71.4" cy="42.6" r="1.6" fill="#fff"/>
+  </symbol>
+
+  <symbol id="i-caviar" viewBox="0 0 120 120">
+    <rect x="30" y="14" width="60" height="18" rx="5" fill="var(--c)"/>
+    <rect x="36" y="32" width="48" height="8" fill="var(--b)"/>
+    <path d="M26 44 H94 V92 C94 102 88 108 78 108 H42 C32 108 26 102 26 92 Z" fill="var(--b)"/>
+    <g fill="var(--a)">
+      <circle cx="38" cy="96" r="6"/><circle cx="50" cy="98" r="6"/><circle cx="62" cy="98" r="6"/><circle cx="74" cy="98" r="6"/><circle cx="85" cy="95" r="6"/>
+      <circle cx="33" cy="84" r="6"/><circle cx="44" cy="86" r="6"/><circle cx="56" cy="87" r="6"/><circle cx="68" cy="87" r="6"/><circle cx="80" cy="85" r="6"/><circle cx="88" cy="82" r="5"/>
+      <circle cx="36" cy="72" r="6"/><circle cx="48" cy="74" r="6"/><circle cx="60" cy="75" r="6"/><circle cx="72" cy="74" r="6"/><circle cx="84" cy="71" r="6"/>
+      <circle cx="42" cy="61" r="6"/><circle cx="54" cy="62" r="6"/><circle cx="66" cy="62" r="6"/><circle cx="78" cy="60" r="6"/>
+    </g>
+    <g fill="#fff" opacity=".55"><circle cx="35" cy="82" r="1.6"/><circle cx="46" cy="72" r="1.6"/><circle cx="58" cy="85" r="1.6"/><circle cx="52" cy="60" r="1.6"/><circle cx="70" cy="72" r="1.6"/><circle cx="82" cy="83" r="1.6"/></g>
+    <path d="M32 48 V86" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  </symbol>
+
+  <symbol id="i-squid" viewBox="0 0 120 120">
+    <path d="M60 6 L88 32 L70 38 Z" fill="var(--b)"/><path d="M60 6 L32 32 L50 38 Z" fill="var(--b)"/>
+    <path d="M60 6 C80 24 84 54 74 74 L46 74 C36 54 40 24 60 6 Z" fill="var(--a)"/>
+    <g fill="none" stroke="var(--a)" stroke-width="5.5" stroke-linecap="round">
+      <path d="M46 78 C38 90 48 98 40 112"/><path d="M53 80 C48 94 58 100 52 114"/><path d="M60 80 C60 94 68 100 64 116"/>
+      <path d="M67 80 C72 94 62 100 72 114"/><path d="M74 78 C82 90 72 98 80 112"/>
+    </g>
+    <ellipse cx="60" cy="76" rx="17" ry="9" fill="var(--a)"/>
+    <circle cx="53" cy="75" r="4" fill="var(--c)"/><circle cx="67" cy="75" r="4" fill="var(--c)"/>
+    <circle cx="54.2" cy="73.8" r="1.3" fill="#fff"/><circle cx="68.2" cy="73.8" r="1.3" fill="#fff"/>
+    <path d="M60 18 V58" stroke="var(--c)" stroke-opacity=".25" stroke-width="3" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="i-mussel" viewBox="0 0 120 120">
+    <path d="M46 108 C14 70 28 20 72 10 C100 8 108 40 94 70 C84 92 64 104 46 108 Z" fill="var(--c)"/>
+    <g fill="none" stroke="var(--b)" stroke-width="3.2" stroke-linecap="round" opacity=".9">
+      <path d="M62 20 C88 18 100 44 90 68"/><path d="M52 38 C76 32 90 52 80 74"/><path d="M48 58 C66 54 78 68 70 88"/><path d="M48 78 C58 76 64 84 60 96"/>
+    </g>
+    <path d="M38 112 L56 100 L52 114 Z" fill="var(--a)"/>
+  </symbol>
+
+  <symbol id="i-bowl" viewBox="0 0 120 120">
+    <g fill="none" stroke="var(--b)" stroke-width="4" stroke-linecap="round">
+      <path d="M44 42 C36 34 52 28 44 18"/><path d="M62 42 C54 34 70 28 62 14"/><path d="M80 42 C72 34 88 28 80 18"/>
+    </g>
+    <path d="M10 58 H110 C110 90 88 108 60 108 C32 108 10 90 10 58 Z" fill="var(--a)"/>
+    <ellipse cx="60" cy="58" rx="50" ry="10" fill="var(--b)"/>
+    <ellipse cx="60" cy="58" rx="42" ry="6.5" fill="var(--a)" opacity=".55"/>
+    <g fill="var(--c)" opacity=".8"><circle cx="40" cy="58" r="3"/><circle cx="52" cy="60" r="3"/><circle cx="68" cy="57" r="3"/><circle cx="80" cy="59" r="3"/></g>
+    <path d="M36 62 C40 56 48 56 50 62" stroke="var(--b)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <rect x="40" y="106" width="40" height="8" rx="4" fill="var(--c)"/>
+  </symbol>
+
+  <symbol id="i-snack" viewBox="0 0 120 120">
+    <g fill="var(--b)" stroke="var(--c)" stroke-opacity=".25" stroke-width="1.5">
+      <rect x="30" y="20" width="11" height="52" rx="3" transform="rotate(-12 35 70)"/>
+      <rect x="44" y="12" width="11" height="58" rx="3" transform="rotate(-5 49 70)"/>
+      <rect x="58" y="16" width="11" height="56" rx="3" transform="rotate(3 63 70)"/>
+      <rect x="72" y="14" width="11" height="58" rx="3" transform="rotate(9 77 70)"/>
+      <rect x="84" y="24" width="11" height="48" rx="3" transform="rotate(16 89 70)"/>
+    </g>
+    <path d="M26 60 H94 L86 110 H34 Z" fill="var(--a)"/>
+    <path d="M30 80 H90 L88 92 H32 Z" fill="var(--c)" opacity=".85"/>
+    <circle cx="60" cy="86" r="5" fill="var(--b)"/>
+  </symbol>
+
+  <!-- Интерфейс -->
+  <symbol id="u-cart" viewBox="0 0 24 24"><path d="M3 4h2.4l2.2 11h10.2l2-8H7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="19.5" r="1.7" fill="currentColor"/><circle cx="17" cy="19.5" r="1.7" fill="currentColor"/></symbol>
+  <symbol id="u-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="u-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="u-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="u-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+  <symbol id="u-minus" viewBox="0 0 24 24"><path d="M5 12h14" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></symbol>
+  <symbol id="u-check" viewBox="0 0 24 24"><path d="m4.5 12.5 5 5 10-11" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="u-vk" viewBox="0 0 24 24"><path d="M3 7.5c.2 5.4 3 8.6 7.700 8.600h.3v-3.100c1.700.2 3 1.400 3.500 3.100h2.400c-.6-2.200-2.200-3.400-3.200-3.900 1-.6 2.400-1.900 2.700-4.700h-2.300c-.5 1.800-1.900 3.200-3.100 3.300V7.500H9.700v6.100C8.400 13.300 6.800 11.700 6.700 7.500H4.300Z" fill="currentColor" transform="translate(0 .2)"/></symbol>
+  <symbol id="u-tg" viewBox="0 0 24 24"><path d="M21 4 3 11l5 2 2 6 3-4 5 4 3-15Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8 13 9-6" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="u-wa" viewBox="0 0 24 24"><path d="M4 20l1.2-4.100A8 8 0 1 1 8.200 18.900L4 20Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 8.500c0 3.300 2.700 6 6 6l1-1.500-2-1-1 .7a4 4 0 0 1-1.700-1.700l.7-1-1-2L9 8.500Z" fill="currentColor"/></symbol>
+</svg>

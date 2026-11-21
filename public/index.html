@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#071A2B">
+<!--META-->
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/bitter-var.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/fonts/fira-400.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="/css/site.css">
+<style id="theme">/*THEME*/</style>
+</head>
+<body>
+<a class="skip" href="#catalog">Перейти к каталогу</a>
+
+<header class="top" id="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top" id="brand"></a>
+    <nav class="nav" aria-label="Разделы сайта">
+      <a href="#catalog">Каталог</a>
+      <a href="#delivery">Доставка</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="top-phone" id="topPhone" href="#contacts"></a>
+    <button class="cart-btn" id="cartBtn" type="button" aria-haspopup="dialog">
+      <svg class="ico" aria-hidden="true"><use href="/img/sprite.svg#u-cart"/></svg>
+      <span class="cart-sum" id="cartSum">Корзина</span>
+      <span class="cart-count" id="cartCount" hidden>0</span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="hero" aria-labelledby="heroTitle">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <h1 id="heroTitle"></h1>
+        <p class="lead" id="heroLead"></p>
+        <div class="cta">
+          <a class="btn btn-red" id="heroCatalog" href="#catalog"></a>
+          <a class="btn btn-ghost" id="heroCall" href="#contacts"></a>
+        </div>
+      </div>
+      <div class="hero-visual" id="heroVisual"></div>
+    </div>
+  </section>
+
+  <div class="ticker" id="ticker" aria-hidden="true"><div class="ticker-track" id="tickerTrack"></div></div>
+
+  <section class="trust" id="trust" aria-label="Преимущества"><div class="wrap"><ul id="trustList"></ul></div></section>
+
+  <section class="today" id="today"><div class="wrap today-in" id="todayIn"></div></section>
+
+  <section class="catalog" id="catalog" aria-labelledby="catTitle">
+    <div class="wrap">
+      <div class="cat-head">
+        <div>
+          <h2 id="catTitle"></h2>
+          <p class="hint" id="catHint"></p>
+        </div>
+        <label class="search">
+          <svg class="ico" aria-hidden="true"><use href="/img/sprite.svg#u-search"/></svg>
+          <span class="sr">Поиск по каталогу</span>
+          <input id="q" type="search" placeholder="Найти: икра, креветки, сёмга" autocomplete="off" enterkeyhint="search">
+        </label>
+      </div>
+    </div>
+    <div class="chips-bar" id="chipsBar"><div class="wrap"><div class="chips" id="chips" role="tablist" aria-label="Категории"></div></div></div>
+    <div class="wrap">
+      <div id="groups"></div>
+      <div class="empty" id="empty" hidden></div>
+    </div>
+  </section>
+
+  <section class="steps" id="steps"><div class="wrap" id="stepsIn"></div></section>
+  <section class="delivery" id="delivery"><div class="wrap" id="deliveryIn"></div></section>
+  <section class="contacts" id="contacts"><div class="wrap" id="contactsIn"></div></section>
+</main>
+
+<footer class="foot"><div class="wrap" id="footIn"></div></footer>
+
+<div class="mbar" id="mbar">
+  <a class="btn btn-ghost-d" id="mbarCall" href="#contacts"></a>
+  <button class="btn btn-red" id="mbarCart" type="button">Корзина</button>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="cart" id="cart" role="dialog" aria-modal="true" aria-labelledby="cartTitle" hidden>
+  <div class="cart-head">
+    <h2 id="cartTitle">Ваш заказ</h2>
+    <button class="x" id="cartClose" type="button" aria-label="Закрыть корзину"><svg class="ico" aria-hidden="true"><use href="/img/sprite.svg#u-close"/></svg></button>
+  </div>
+  <div class="cart-body" id="cartBody"></div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<!--BOOT-->
+<script src="/js/site.js" defer></script>
+</body>
+</html>

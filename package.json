@@ -1,0 +1,12 @@
+{
+  "name": "moreprodukty-nyagan-site",
+  "version": "1.0.0",
+  "description": "Сайт «Морепродукты Нягань»: витрина, корзина, админка, заказы в Telegram. Без внешних зависимостей.",
+  "private": true,
+  "main": "server.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "reset-password": "node server.js --reset-password"
+  }
+}
